@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.sites-runtime/
+*.tsbuildinfo
+.env*
+qa/
+.openai/
+.vercel/
+*.log
+.DS_Store
