@@ -1,5 +1,11 @@
 # Validation — 29 October 2026
 
+## Footer revision — 1 November 2026
+
+The footer now follows the supplied compact reference: brown background, full gold emblem behind a smaller white wordmark at the left, and open space on the right. Separate existing logo assets replace the cropped composite. Extra footer navigation, side text, and divider rows were removed. The artwork remains a back-to-top link.
+
+Visually checked in the browser at desktop size and at a 390px mobile viewport. The entire emblem is visible and the mobile layout has no horizontal overflow. This verification covers the revised footer; the original broader page-testing limits below remain historical.
+
 ## Passed
 
 - Next.js optimized production build and static export.

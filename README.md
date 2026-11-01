@@ -38,7 +38,7 @@ Reference: [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nex
 - Brand story and campaign composition.
 - Filterable six-image gallery with previous/next, arrow-key navigation, Escape, and focus restoration.
 - Responsive native-dialog mobile navigation.
-- Supplied footer artwork, optimized local fonts and images, metadata, a custom 404, and reduced-motion behavior.
+- Footer composed from the supplied full emblem and wordmark, optimized local fonts and images, metadata, a custom 404, and reduced-motion behavior.
 
 No 3D model is loaded. This edition has no event inventory, booking, payment, contact submission, accounts, or invented venue details. These require real business information before implementation.
 

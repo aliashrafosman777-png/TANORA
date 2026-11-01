@@ -635,38 +635,18 @@ export default function Tanora() {
         </section>
       </main>
       <footer className="site-footer">
-        <div className="shell footer-top">
-          <span className="eyebrow">HERITAGE IN MOTION.</span>
-          <nav aria-label="Footer navigation">
-            {navigation.map((link) => (
-              <a key={link.href} href={link.href}>
-                {link.name}
-              </a>
-            ))}
-          </nav>
-          <a className="back-top" href="#top" aria-label="Back to top">
-            BACK TO TOP <span aria-hidden="true">↑</span>
+        <div className="footer-art">
+          <a className="footer-brand" href="#top" aria-label="TANORA — back to top">
+            <span className="footer-emblem" aria-hidden="true" />
+            <img
+              className="footer-wordmark"
+              src="/images/wordmark.webp"
+              alt="TANORA"
+              loading="lazy"
+              width="926"
+              height="257"
+            />
           </a>
-        </div>
-        <div className="shell footer-art">
-          <img
-            src="/images/footer.webp"
-            alt="TANORA, white wordmark over the antique gold emblem"
-            loading="lazy"
-            width="1204"
-            height="708"
-          />
-          <div className="footer-note">
-            <span>
-              EGYPTIAN HERITAGE.
-              <br />A NEW EXPRESSION.
-            </span>
-            <span className="tiny-star">✳</span>
-          </div>
-        </div>
-        <div className="shell footer-bottom">
-          <span>© 2026 TANORA</span>
-          <span>ANCIENT MOTION. NEW EXPRESSION.</span>
         </div>
       </footer>
       {viewer && (
